@@ -1,0 +1,151 @@
+body {
+    background-color:#2f8181a8;
+}
+nav li {
+    text-align: center;
+    display: block;
+    float: left;
+    padding: 1% 5%;
+}
+
+nav li a {
+    color: #2f8181a8;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 200%;
+}
+
+nav li a:hover{
+    color: black;
+    border: solid 3px #2f8181a8;
+}
+
+nav ul {
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+}
+
+.grid{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}
+
+img{
+    box-shadow: 50px 20px 20px grey;
+    margin-top: -10px;
+
+}
+
+section{
+    margin: 25%;
+}
+
+h1 {
+    margin: top;
+    text-align: left;
+    color:rgb(255, 255, 255);
+    font-size: 60px;
+    font-family: monospace;
+    font-size: auto;
+    text-shadow: 5px 2px 2px grey;
+    text-align: center;
+}
+
+p {
+    margin-right: -125px;
+    margin-left: px;
+    margin-top: 25px;
+    padding: 25px;
+    text-align: justify;
+    max-width: auto;
+    background-color: whitesmoke;
+    box-shadow: 5px 2px 2px grey;
+    color:rgb(31, 197, 202);
+}
+
+.reflectiontext{
+    margin-right: 150px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    text-align: justify;
+    max-width: auto;
+    color: black;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.reflectiontext p{
+    color: black;
+}
+
+.reflectiontext a{
+    text-align: center;
+    margin-left: 400px;}
+
+.reflectiontext p:hover{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+p:hover{
+    font-size: 30px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.h1box:hover{
+    background-color: black;
+    font-size: 100px;
+
+}
+
+.linken{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    border-bottom: wheat 5px solid;
+    text-align: center;
+}
+
+.reflection{
+    text-align: center;
+}
+
+.imgbox:hover{
+      -moz-box-shadow: 0 0 10px #ccc;
+      -webkit-box-shadow: 0 0 10px #ccc;
+      box-shadow: 50px 30px 100px #ccc;
+    }
+
+@media screen and (max-width: 1500px) {
+
+    .grid{
+        grid-template-columns: 1fr;
+    }
+    section{
+        margin: 0%;
+        padding: 25px;
+    }
+    p{
+       padding: 25px;
+       margin-left: 0px;
+       color: darkgoldenrod;
+       font-size: 15px;
+       width: 90%;
+    }
+    h1{
+        text-align: center;
+        font-size: 52px;
+    }
+    img{
+        margin-top: 0px;
+    }
+}
